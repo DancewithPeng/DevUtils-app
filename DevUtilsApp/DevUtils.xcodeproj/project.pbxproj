@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,6 @@
 		A5861F0C2494861700EDC5AB /* ToolImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5861F0B2494861700EDC5AB /* ToolImpl.swift */; };
 		A5893A07247C106A00D025FE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; };
 		A5893A09247C107300D025FE /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A599BFDF2529570E00CA37E6 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = A599BFDE2529570E00CA37E6 /* LICENSE.md */; };
 		A599BFE22529F95200CA37E6 /* HTMLPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A599BFE02529F95200CA37E6 /* HTMLPreviewViewController.swift */; };
 		A599BFE32529F95200CA37E6 /* HTMLPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A599BFE12529F95200CA37E6 /* HTMLPreviewViewController.xib */; };
 		A599BFE6252A167700CA37E6 /* HTMLPreviewSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A599BFE4252A167700CA37E6 /* HTMLPreviewSettingViewController.swift */; };
@@ -1490,7 +1489,6 @@
 				A59FBE6624362BCF00C5C9BF /* Assets.xcassets in Resources */,
 				A5C15E3C2532A4DB000067BF /* JSONFormatterHelper.js in Resources */,
 				A5861EF7248FE09A00EDC5AB /* QueryStringParserViewController.xib in Resources */,
-				A599BFDF2529570E00CA37E6 /* LICENSE.md in Resources */,
 				A59FBE6924362BCF00C5C9BF /* Main.storyboard in Resources */,
 				A513042924757CF30023D0CF /* WelcomeViewController.xib in Resources */,
 				A504B9A724729DDE000A91D7 /* OutputTextField.xib in Resources */,
@@ -1936,7 +1934,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = G6RN72YKHF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = LauncherApplicationTINO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1958,7 +1956,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = G6RN72YKHF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = LauncherApplicationTINO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2105,7 +2103,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = "${CURRENT_PROJECT_VERSION}";
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = G6RN72YKHF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2122,10 +2120,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TINOBHNYWE/Setapp",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = "${MARKETING_VERSION}";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG NO_SPARKLE";
 				SWIFT_OBJC_BRIDGING_HEADER = "TINOBHNYWE/DevUtils-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -2142,7 +2142,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = "${CURRENT_PROJECT_VERSION}";
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = G6RN72YKHF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2159,6 +2159,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/TINOBHNYWE/Setapp",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = "${MARKETING_VERSION}";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "${APP_BUNDLE_ID}";
@@ -2466,7 +2467,7 @@
 			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
 			requirement = {
 				kind = exactVersion;
-				version = 6.1.0;
+				version = 7.0.0;
 			};
 		};
 		A51047732507399C00CA4E52 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
